@@ -1,0 +1,15 @@
+.conteiner__articles {
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header {
+  margin-top: 25px;
+  /* border: solid white 1px; */
+  display: flex;
+  justify-content: center;
+}
+

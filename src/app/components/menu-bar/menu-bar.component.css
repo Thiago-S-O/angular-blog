@@ -1,0 +1,15 @@
+
+/* .conteiner__menu-bar {
+  margin-top: 30px;
+} */
+
+.conteiner__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.conteiner__menu-bar > ul > li {
+  margin-left: 30px;
+  margin-right: 20px;
+  list-style: none;
+}
