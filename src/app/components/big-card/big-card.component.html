@@ -1,22 +1,20 @@
 
 <div class="conteiner__big-card">
   <div class="big-card__photo">
-    <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
-    alt=""
+    <img src="{{ photoCover }}"
+    alt="Image here!"
     height="275px"
     >
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Titulo: What is Lorem Ipsum?</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
 
   </div>
   <div class="big-card__description">
     <p>
-      <a href="#">
-      quelquer coisa para descrever o que tem no titulo: Lorem Ipsum is simply dummy text of the printing
-      and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      <a [routerLink]="['content', Id]">
+      {{ cardDescription }}
       </a>
     </p>
   </div>
