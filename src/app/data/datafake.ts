@@ -22,10 +22,10 @@ export const dataFake = [
     'description':'more type script photo',
     'photoCover':'https://www.remessaonline.com.br/blog/wp-content/uploads/2021/11/typescript-como-funciona-e-principais-usos.jpg.optimal.jpg'
   },
-  // {
-  //   'id':'4',
-  //   'title':'Content tilte three',
-  //   'description':'image with frameworks and lenguange',
-  //   'photoCover':'https://cdn.thenewstack.io/media/2022/08/57d8fb91-450c1b44-shutterstock_1923522845.jpeg'
-  // }
+  {
+    'id':'4',
+    'title':'Content tilte three',
+    'description':'image with frameworks and lenguange',
+    'photoCover':'https://cdn.thenewstack.io/media/2022/08/57d8fb91-450c1b44-shutterstock_1923522845.jpeg'
+  }
 ]
