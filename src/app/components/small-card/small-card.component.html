@@ -2,13 +2,13 @@
 <div class="conteiner__small-card">
   <div class="conteiner__small-card-content">
     <div class="small-card__photo">
-      <img src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
-      alt=""
+      <img src="{{ photoCover }}"
+      alt="Image here!"
       height="150px"
       >
     </div>
     <div class="small-card__title">
-      <h1><a href="#">Titulo: do css chamado Small card</a></h1>
+      <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
     </div>
   </div>
   <div class="conteiner__small-card__separator">
